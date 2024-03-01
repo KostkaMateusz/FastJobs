@@ -1,4 +1,4 @@
-﻿namespace Entities;
+﻿namespace FastJobs.Domain.Entities;
 
 public class Company
 {

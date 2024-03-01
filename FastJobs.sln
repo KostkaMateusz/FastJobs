@@ -2,7 +2,7 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{BD6A9F5D-E972-459E-9584-1BB06EBE8A94}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entities", "Entities\Entities.csproj", "{44C703E7-986F-4859-A689-37E2844C48FA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FastJobs.Domain", "FastJobs.Domain\FastJobs.Domain.csproj", "{44C703E7-986F-4859-A689-37E2844C48FA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
