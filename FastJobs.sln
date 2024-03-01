@@ -4,6 +4,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{BD6A9F5D-E97
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FastJobs.Domain", "FastJobs.Domain\FastJobs.Domain.csproj", "{44C703E7-986F-4859-A689-37E2844C48FA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FastJobs.Persistence", "FastJobs.Persistence\FastJobs.Persistence.csproj", "{539EA47E-FCE3-4725-8C76-94CEF4589484}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -11,11 +13,16 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{44C703E7-986F-4859-A689-37E2844C48FA} = {BD6A9F5D-E972-459E-9584-1BB06EBE8A94}
+		{539EA47E-FCE3-4725-8C76-94CEF4589484} = {BD6A9F5D-E972-459E-9584-1BB06EBE8A94}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{44C703E7-986F-4859-A689-37E2844C48FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{44C703E7-986F-4859-A689-37E2844C48FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{44C703E7-986F-4859-A689-37E2844C48FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{44C703E7-986F-4859-A689-37E2844C48FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{539EA47E-FCE3-4725-8C76-94CEF4589484}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{539EA47E-FCE3-4725-8C76-94CEF4589484}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{539EA47E-FCE3-4725-8C76-94CEF4589484}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{539EA47E-FCE3-4725-8C76-94CEF4589484}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
