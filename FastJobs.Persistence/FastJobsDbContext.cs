@@ -8,6 +8,7 @@ public class FastJobsDbContext(DbContextOptions<FastJobsDbContext> options) : Db
 {
     public DbSet<Company>? Companies { get; set; }
 
+    
     protected override void OnModelCreating(ModelBuilder builder)
     {
         builder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
