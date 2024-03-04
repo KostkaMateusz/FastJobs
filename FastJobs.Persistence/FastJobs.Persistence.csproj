@@ -17,6 +17,7 @@
     </ItemGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\FastJobs.Application\FastJobs.Application.csproj" />
       <ProjectReference Include="..\FastJobs.Domain\FastJobs.Domain.csproj" />
     </ItemGroup>
 

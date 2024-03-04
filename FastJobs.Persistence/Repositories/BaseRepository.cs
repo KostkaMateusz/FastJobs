@@ -1,8 +1,9 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using FastJobs.Application.Contracts.Persistence;
+using Microsoft.EntityFrameworkCore;
 
 namespace FastJobs.Persistence.Repositories;
 
-public class BaseRepository<T> where T : class //: IAsyncRepository<T> where T : class
+public class BaseRepository<T> : IBaseRepository<T> where T : class
 {
     protected readonly FastJobsDbContext _dbContext;
 
