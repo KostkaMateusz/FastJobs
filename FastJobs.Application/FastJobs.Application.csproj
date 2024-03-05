@@ -17,4 +17,9 @@
       <ProjectReference Include="..\FastJobs.Domain\FastJobs.Domain.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Folder Include="Companies\Commands\DeleteCompany\" />
+      <Folder Include="Companies\Queries\GetCompanyById\" />
+    </ItemGroup>
+
 </Project>

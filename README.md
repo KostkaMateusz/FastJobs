@@ -8,6 +8,8 @@
 * Other Companies can bid for task realisation
 * Task Owner Can Chose One Comapny for Task Realisation
 
+
+
 ## Technology Stack
 
 * ASP.NET
@@ -15,3 +17,7 @@
 * Entity Framework
 * MediatR
 * Blazor
+
+## Entities Map 
+
+https://mm.tt/app/map/3165507046?t=vdwcKEgwEr
