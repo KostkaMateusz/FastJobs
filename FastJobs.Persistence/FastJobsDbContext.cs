@@ -7,7 +7,6 @@ namespace FastJobs.Persistence;
 public class FastJobsDbContext(DbContextOptions<FastJobsDbContext> options) : DbContext(options)
 {
     internal DbSet<Company>? Companies { get; set; }
-
     
     protected override void OnModelCreating(ModelBuilder builder)
     {
